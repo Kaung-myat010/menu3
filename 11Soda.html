@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AKM</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<script src="https://kit.fontawesome.com/e668ea90a7.js" crossorigin="anonymous"></script>
+	
+	
+	
+	
+	<script src="jquery-3.3.1.min.js"></script>
+
+	<style>
+     
+		 
+
+
+		#ul {list-style-type:none;
+		
+		padding:0;
+		overflow:hidden;
+		background-color: #009c00}
+		
+		
+		#lia{display:block;
+		color:#ffffff;
+		text-align:right;
+		margin-left: 3rem;
+		
+		text-decoration: none;
+		font-size: 20px;
+		margin-top:0.5rem;
+		
+	  }
+		
+		
+		li a:hover{background-color: #00216f;}
+		
+		
+		footer {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #059c00;
+	text-align: center;
+	height: 45px;
+	width: 100%; vertical-align:middle;
+	border:none;
+  padding-top:10px;}
+
+	li {float:inline-end;}
+
+	
+	
+
+.blog-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-heading h2{
+  font-size: 3rem;
+  color: #009c00;
+  font-weight: 600;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+	
+
+  .blog-container{
+  display: flex;
+  justify-content: space-around;
+	margin: 10px;
+	margin-top: 50px;
+}
+
+.blog-box{
+  width: 150px;
+	text-align: center;
+  background-color: #fff;
+  border:1px solid #ececec;
+	justify-content: space-between;
+	border-radius: 5px;
+	box-shadow:  0 0 0 2px rgb(245,245,245),
+	0.2em 0.2em 0.2em rgba(0,0,0,0.2);
+  
+  
+}
+
+.blog-img{
+  width: 150px;
+  height: 150px;
+	
+}
+
+.blog-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+	border-radius: 5px;
+}
+
+.blog-text{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+}
+
+.blog-text span{
+  color: rgb(0, 26, 2);
+  font-size: 1.5rem;
+	font-weight: bold;
+	
+}
+
+
+.btt {
+	font-weight: bold;
+  
+  width: 100px;
+	text-align: center;
+  
+  color:rgb(15, 177, 0);
+  height: 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.7rem;
+  
+  text-shadow: rgb(0,0,0,0.25) 0 3px 8px;
+  
+ 
+  
+}
+
+
+
+				 
+ </style>
+
+
+</head>
+<body style="background: linear-gradient(135deg,#ffffff53, #ffffff53);
+
+
+height:100%;
+width:100%;"
+>
+	
+<header class="header">
+<nav style="background: linear-gradient(135deg,#009c00, #00e400);border:none;
+ box-shadow: 3px 3px 5px rgba(0,0,0,0.1);color:white;"
+ class="navbar navbar-inverse
+ navbar-fixed-top navbar-default";
+ >
+		<div class="navbar-header">
+			<button style="color:#00cc00" class="navbar-toggle"
+			 data-toggle='collapse'
+			 data-target='#main'>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+                
+			</button>
+			<p style="color:white;margin-right: 7rem;
+			margin-left:2rem;margin-top:0.5rem;font-family: Franklin Gothic Medium;
+			font-size:30px;font-weight: bold;"
+			 class="navbar-brand">I V Y</p>
+ <div id="main" class="navbar-collapse
+ collapse navbar-right">      
+  <ul id="ul" class="nav navbar-nav">
+
+    <li><a id="lia" href="https://kaung-myat010.github.io/menu/">Home</a></li> 
+    <li><a id="lia" href="https://kaung-myat010.github.io/menu/hotpot.html">Hotpot</a></li> 
+    <li><a id="lia" href="https://kaung-myat010.github.io/menu/2special dishes.html">Special dishes</a></li>
+    <li><a id="lia" href="https://kaung-myat010.github.io/menu/3light food.html">Light food</a></li>
+    <li><a id="lia" href="https://kaung-myat010.github.io/menu/4fish dishes.html">Fish dishes</a></li>
+		<li><a id="lia" href="https://kaung-myat010.github.io/menu2/5curry dishes.html">Curry dishes</a></li> 
+    <li><a id="lia" href="https://kaung-myat010.github.io/menu2/6vegetables.html">Vegetables</a></li>
+    <li><a id="lia" href="https://kaung-myat010.github.io/menu2/7salad.html">Salad</a></li>
+    <li><a id="lia" href="https://kaung-myat010.github.io/menu2/8soup.html">Soup</a></li>
+		<li><a id="lia" href="9rice.html">Rice & Noodles</a></li>
+    <li><a id="lia" href="10juices.html">Juices</a></li>
+		<li><a id="lia" href="11Soda.html">Soda & Yogurt</a></li>
+		<li><a id="lia" href="#">Grilled</a></li>
+		<li><a id="lia" href="https://kaung-myat010.github.io/menu/About.html"> About</a></li>
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+    
+    
+	</header>
+
+	<br><br><br><br><br>
+
+
+	<section id="blog">
+
+		<div class="blog-heading">
+			<h2>Soda & Yogurt</h2>
+		</div>
+
+
+
+	<div class="blog-container">
+
+		<div class="blog-box">
+			<div class="blog-img">
+				<img src="soda/f1.jfif" alt="Blog">
+			</div>
+
+			<div class="blog-text">
+				<span>Peach soda</span>
+				
+
+					
+				</p>
+				<a class="btt">3000 MMK</a>
+		 </div>
+	  </div>
+    <div class="blog-box">
+			<div class="blog-img">
+				<img src="soda/f2.jfif" alt="Blog">
+			</div>
+
+			<div class="blog-text">
+				<span>Blueberry soda</span>
+				
+
+					
+				</p>
+				<a class="btt">3000 MMK</a>
+		 </div>
+	  </div>
+  </div>
+
+
+
+
+
+
+	<div class="blog-container">
+
+		<div class="blog-box">
+			<div class="blog-img">
+				<img src="soda/f3.jfif" alt="Blog">
+			</div>
+
+			<div class="blog-text">
+				<span>Kiwi soda</span>
+				
+
+					
+				</p>
+				<a class="btt">3000 MMK</a>
+		 </div>
+	  </div>
+    <div class="blog-box">
+			<div class="blog-img">
+				<img src="soda/f4.jfif" alt="Blog">
+			</div>
+
+			<div class="blog-text">
+				<span>Honey lime soda</span>
+				
+
+					
+				</p>
+				<a class="btt">3000 MMK</a>
+		 </div>
+	  </div>
+  </div>
+
+
+
+	<div class="blog-container">
+
+		<div class="blog-box">
+			<div class="blog-img">
+				<img src="soda/f5.jfif" alt="Blog">
+			</div>
+
+			<div class="blog-text">
+				<span>Strawberry soda</span>
+				
+
+					
+				</p>
+				<a class="btt">29500 MMK</a>
+		 </div>
+	  </div>
+    <div class="blog-box">
+			<div class="blog-img">
+				<img src="soda/f6.jfif" alt="Blog">
+			</div>
+
+			<div class="blog-text">
+				<span>Blueberry yogurt</span>
+				
+
+					
+				</p>
+				<a class="btt">3000 MMK</a>
+		 </div>
+	  </div>
+  </div>
+
+
+
+
+
+
+	<div class="blog-container">
+
+		<div class="blog-box">
+			<div class="blog-img">
+				<img src="soda/f7.jfif" alt="Blog">
+			</div>
+
+			<div class="blog-text">
+				<span>Mango yogurt</span>
+				
+
+					
+				</p>
+				<a class="btt">3000 MMK</a>
+		 </div>
+	  </div>
+    <div class="blog-box">
+			<div class="blog-img">
+				<img src="soda/f8.jfif" alt="Blog">
+			</div>
+
+			<div class="blog-text">
+				<span>Strawberry yogurt</span>
+				
+
+					
+				</p>
+				<a class="btt">3000 MMK</a>
+		 </div>
+	  </div>
+  </div>
+
+
+
+	<div class="blog-container">
+
+		<div class="blog-box">
+			<div class="blog-img">
+				<img src="soda/f9.jfif" alt="Blog">
+			</div>
+
+			<div class="blog-text">
+				<span>Pineapple yogurt</span>
+				
+
+					
+				</p>
+				<a class="btt">3000 MMK</a>
+		 </div>
+	  </div>
+    <div class="blog-box">
+			<div class="blog-img">
+				<img src="soda/f10.jfif" alt="Blog">
+			</div>
+
+			<div class="blog-text">
+				<span>Mixfruit yogurt</span>
+				
+
+					
+				</p>
+				<a class="btt">3500 MMK</a>
+		 </div>
+	  </div>
+  </div>
+
+  
+  <br><br><br><br>
+  
+  
+  
+
+<footer><k5>@kaungmyat</k5>
+</footer>
+
+    
+	
+	 
+	<!-- jQuery Link -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap javaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	
+</body>
+</html>
