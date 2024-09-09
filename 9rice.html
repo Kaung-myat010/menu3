@@ -90,14 +90,14 @@
 .blog-box{
   width: 150px;
 	text-align: center;
-  background-color: #fff;
+  background: linear-gradient(135deg, rgba(255,255,2550.1), rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter:blur(10px);
   border:1px solid #ececec;
 	justify-content: space-between;
 	border-radius: 5px;
 	box-shadow:  0 0 0 2px rgb(245,245,245),
 	0.2em 0.2em 0.2em rgba(0,0,0,0.2);
-  
-  
 }
 
 .blog-img{
@@ -150,13 +150,25 @@
 
 
 				 
+@keyframes color{
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+	
+}
+					 
  </style>
 
-
 </head>
-<body style="background: linear-gradient(135deg,#ffffff53, #ffffff53);
-
-
+<body style="background: linear-gradient(90deg,#efffee31,#ffef919a,#efffee31,#efffee31,#87ff7e86,#efffee31);
+animation: color 8s ease-in-out infinite;
+background-size: 300% 300%;
 height:100%;
 width:100%;"
 >
